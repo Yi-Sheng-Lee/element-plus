@@ -1,0 +1,30 @@
+{
+    "Language": {
+        "title": "Language",
+        "en": "Engilsh",
+        "cn": "簡體中文",
+        "tw": "繁體中文"
+    },
+    "validation": {
+        "required": "Required",
+        "excluded": "Required",
+        "checkbox": "Required",
+        "integer": "請勿輸入數字以外的文字",
+        "email": "Email format error",
+        "between": "數量超過上限",
+        "ip": "IP format error",
+        "ipAndDomain": "IP or Domain name format error",
+        "ipConflict": "請勿輸入相同 ip",
+        "phoneNum": "手機號碼格式錯誤",
+        "min": "長度不符合",
+        "max": "長度不符合",
+        "specialChar": "請勿輸入([=><?:;, &|-])",
+        "passwordDoubleCheck": "密碼輸入不一致",
+        "leastOneNum": "須包含一位數字",
+        "allNumber": "密碼不能全為數字",
+        "checkOldNewPwd": "舊密碼與新密碼相同",
+        "chineseDetect": "請勿輸入中文",
+        "hasSpace": "請勿輸入空白鍵",
+        "fullWidthWord": "請勿輸入全行文字"
+    }
+}
