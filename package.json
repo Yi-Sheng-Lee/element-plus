@@ -9,8 +9,10 @@
     "format": "prettier --write \"**/*.+(js|json|vue)\""
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.5",
     "@vee-validate/rules": "^4.4.7",
     "axios": "^0.21.1",
+    "element-plus": "^2.2.3",
     "mitt": "^3.0.0",
     "pinia": "^2.0.14",
     "vee-validate": "^4.4.9",
@@ -30,6 +32,8 @@
     "prettier-eslint": "^13.0.0",
     "sass": "^1.38.0",
     "sass-loader": "^12.1.0",
+    "unplugin-auto-import": "^0.8.7",
+    "unplugin-vue-components": "^0.19.6",
     "vite": "^2.4.4",
     "vite-plugin-compression": "^0.3.3",
     "vite-plugin-eslint": "^1.3.0"

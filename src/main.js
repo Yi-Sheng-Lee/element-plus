@@ -16,6 +16,7 @@ setupInterceptors()
 // createApp
 const app = createApp(App).use(pinia)
 
+
 app.config.devtools = true
 app.config.debug = true
 app.config.productionTip = true

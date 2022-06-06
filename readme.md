@@ -1,5 +1,6 @@
-# Vite Init Project
-## 使用 Vite + Vue3 初始化的專案，專案已包含以下套件
+# Element Plus (Element+) Project
+## 使用 Vite + Vue3 + Element+ 專案，專案已包含以下套件
+- Element+
 - axios
 - vue-router
 - pinia
