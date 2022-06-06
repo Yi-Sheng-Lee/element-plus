@@ -1,31 +1,9 @@
 import { createWebHashHistory, createRouter } from "vue-router"
 
+import dashboardRoute from "./conf/dashboardRoute"
+
 const routes = [
-    {
-        path: '/axios',
-        name: "Axios",
-        component: () => import("../views/demo/Axios.vue"),
-    },
-    {
-        path: '/vue-i18n',
-        name: "I18n",
-        component: () => import("../views/demo/VueI18n.vue"),
-    },
-    {
-        path: '/vee-validate',
-        name: "VeeValidate",
-        component: () => import("../views/demo/VeeValidate.vue"),
-    },
-    {
-        path: '/mitt',
-        name: "Mitt",
-        component: () => import("../views/demo/Mitt.vue"),
-    },
-    {
-        path: "/test2",
-        name: "test2",
-        component: () => import("../views/test/test2.vue"),
-    },
+    dashboardRoute
 ]
 
 const router = createRouter({
