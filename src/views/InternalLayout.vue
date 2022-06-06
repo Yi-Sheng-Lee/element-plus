@@ -3,7 +3,9 @@
         <el-container style="min-height: 100vh"  direction="vertical">
             <Header />
             <el-container>
-                <el-aside width="200px">Aside</el-aside>
+                <el-aside width="200px">
+                    <SideBar />
+                </el-aside>
                 <el-container direction="vertical">
                     <el-main>
                         <router-view></router-view>
@@ -26,5 +28,6 @@
 </template>
 <script setup>
 import Header from'./layout/Header.vue'
+import SideBar from './layout/SideBar.vue'
 import Footer from './layout/Footer.vue'
 </script>
