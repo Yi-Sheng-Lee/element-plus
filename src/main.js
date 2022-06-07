@@ -10,12 +10,15 @@ import setupInterceptors from './config/axios/setupInterceptors.js'
 // vee-validate
 import './config/validate'
 import { Form, Field, ErrorMessage } from 'vee-validate'
+import moment from 'moment'
 
 setupInterceptors()
 
 // createApp
 const app = createApp(App).use(pinia)
 
+// 建構 prototype
+app.config.globalProperties.moment = moment
 
 app.config.devtools = true
 app.config.debug = true

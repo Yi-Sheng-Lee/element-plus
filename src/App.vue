@@ -2,5 +2,8 @@
     <router-view></router-view>
 </template>
 
-<script setup>
-</script>
+<style lang="scss">
+    body {
+        margin: 0;
+    }
+</style>

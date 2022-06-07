@@ -1,5 +1,5 @@
 <template>
     <div>
-        dsf
+        {{ moment().format('YYYY-MM-DD HH:mm:ss') }}
     </div>
 </template>
