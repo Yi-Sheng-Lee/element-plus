@@ -28,6 +28,13 @@ export default defineConfig({
             resolvers: [ElementPlusResolver()],
         })
     ],
+    css: {
+        preprocessorOptions: {
+            less: {
+                javascriptEnabled: true,
+            },
+        },
+    },
     // css: {
     //     preprocessorOptions: {
     //         scss: {

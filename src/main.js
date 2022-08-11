@@ -4,6 +4,8 @@ import router from "./router"
 import { pinia } from './store'
 import { i18n } from './config/i18n'
 
+import './assets/tailwind/index.css'
+
 // axios
 import setupInterceptors from './config/axios/setupInterceptors.js'
 
