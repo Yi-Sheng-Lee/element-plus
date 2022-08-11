@@ -1,6 +1,7 @@
 <template>
     <el-menu
         class="el-menu-vertical-demo"
+        style="min-height: 100vh;"
         :collapse="isCollapse"
     >
         <el-sub-menu index="1">
@@ -8,13 +9,13 @@
                 <el-icon><Location /></el-icon>
                 <span>Navigator One</span>
             </template>
-            <el-menu-item-group>
+            <!-- <el-menu-item-group>
                 <template #title><span>Group One</span></template>
                 <el-menu-item index="1-1">item one</el-menu-item>
                 <el-menu-item index="1-2">item two</el-menu-item>
-            </el-menu-item-group>
+            </el-menu-item-group> -->
             <el-menu-item-group title="Group Two">
-                <el-menu-item index="1-3">item three</el-menu-item>
+                <el-menu-item index="1-3">websocket</el-menu-item>
             </el-menu-item-group>
             <el-sub-menu index="1-4">
                 <template #title><span>item four</span></template>
